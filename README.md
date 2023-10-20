@@ -1,6 +1,6 @@
 # Задача 3. Sound Processor
 
-[![Testing](https://github.com/ptrvsrg/NSU-OOP-CXX-Sound-Processor/actions/workflows/cmake.yml/badge.svg)](https://github.com/ptrvsrg/NSU-OOP-CXX-Sound-Processor/actions/workflows/cmake.yml)
+[![Testing](https://github.com/ptrvsrg/WAV-Sound-Processor/actions/workflows/cmake.yml/badge.svg)](https://github.com/ptrvsrg/WAV-Sound-Processor/actions/workflows/cmake.yml)
 
 Написать программу, которая получает на вход один или несколько звуковых файлов формата WAV и текстовый файл с описанием того, что надо сделать со звуком. Программа выполняет преобразования звука и сохраняет результат в выходной файл формата WAV.
 
