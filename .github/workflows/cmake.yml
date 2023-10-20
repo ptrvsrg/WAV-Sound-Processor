@@ -1,0 +1,25 @@
+name: CMake
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  check_tasks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Configure
+      run: cmake -B "./build" -S "."
+
+    - name: Build
+      run: cmake --build "./build"
+
+    - name: Test
+      working-directory: "./build"
+      run: ctest --extra-verbose
+
